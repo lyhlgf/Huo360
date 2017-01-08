@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6153C2EA1E226041007268E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C2E91E226041007268E9 /* AppDelegate.swift */; };
+		6153C2EC1E226041007268E9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C2EB1E226041007268E9 /* FirstViewController.swift */; };
+		6153C2EE1E226041007268E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C2ED1E226041007268E9 /* SecondViewController.swift */; };
+		6153C2F11E226042007268E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6153C2EF1E226042007268E9 /* Main.storyboard */; };
+		6153C2F31E226042007268E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6153C2F21E226042007268E9 /* Assets.xcassets */; };
+		6153C2F61E226042007268E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6153C2F41E226042007268E9 /* LaunchScreen.storyboard */; };
+		6153C3011E226042007268E9 /* Huo360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C3001E226042007268E9 /* Huo360Tests.swift */; };
+		6153C30C1E226042007268E9 /* Huo360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C30B1E226042007268E9 /* Huo360UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6153C2FD1E226042007268E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6153C2DE1E226041007268E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6153C2E51E226041007268E9;
+			remoteInfo = Huo360;
+		};
+		6153C3081E226042007268E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6153C2DE1E226041007268E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6153C2E51E226041007268E9;
+			remoteInfo = Huo360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6153C2E61E226041007268E9 /* Huo360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huo360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6153C2E91E226041007268E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6153C2EB1E226041007268E9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6153C2ED1E226041007268E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6153C2F01E226042007268E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6153C2F21E226042007268E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6153C2F51E226042007268E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6153C2F71E226042007268E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6153C2FC1E226042007268E9 /* Huo360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Huo360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6153C3001E226042007268E9 /* Huo360Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huo360Tests.swift; sourceTree = "<group>"; };
+		6153C3021E226042007268E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6153C3071E226042007268E9 /* Huo360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Huo360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6153C30B1E226042007268E9 /* Huo360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huo360UITests.swift; sourceTree = "<group>"; };
+		6153C30D1E226042007268E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6153C2E31E226041007268E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153C2F91E226042007268E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153C3041E226042007268E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6153C2DD1E226041007268E9 = {
+			isa = PBXGroup;
+			children = (
+				6153C2E81E226041007268E9 /* Huo360 */,
+				6153C2FF1E226042007268E9 /* Huo360Tests */,
+				6153C30A1E226042007268E9 /* Huo360UITests */,
+				6153C2E71E226041007268E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6153C2E71E226041007268E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6153C2E61E226041007268E9 /* Huo360.app */,
+				6153C2FC1E226042007268E9 /* Huo360Tests.xctest */,
+				6153C3071E226042007268E9 /* Huo360UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6153C2E81E226041007268E9 /* Huo360 */ = {
+			isa = PBXGroup;
+			children = (
+				6153C2E91E226041007268E9 /* AppDelegate.swift */,
+				6153C2EB1E226041007268E9 /* FirstViewController.swift */,
+				6153C2ED1E226041007268E9 /* SecondViewController.swift */,
+				6153C2EF1E226042007268E9 /* Main.storyboard */,
+				6153C2F21E226042007268E9 /* Assets.xcassets */,
+				6153C2F41E226042007268E9 /* LaunchScreen.storyboard */,
+				6153C2F71E226042007268E9 /* Info.plist */,
+			);
+			path = Huo360;
+			sourceTree = "<group>";
+		};
+		6153C2FF1E226042007268E9 /* Huo360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6153C3001E226042007268E9 /* Huo360Tests.swift */,
+				6153C3021E226042007268E9 /* Info.plist */,
+			);
+			path = Huo360Tests;
+			sourceTree = "<group>";
+		};
+		6153C30A1E226042007268E9 /* Huo360UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6153C30B1E226042007268E9 /* Huo360UITests.swift */,
+				6153C30D1E226042007268E9 /* Info.plist */,
+			);
+			path = Huo360UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6153C2E51E226041007268E9 /* Huo360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6153C3101E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360" */;
+			buildPhases = (
+				6153C2E21E226041007268E9 /* Sources */,
+				6153C2E31E226041007268E9 /* Frameworks */,
+				6153C2E41E226041007268E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Huo360;
+			productName = Huo360;
+			productReference = 6153C2E61E226041007268E9 /* Huo360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6153C2FB1E226042007268E9 /* Huo360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6153C3131E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360Tests" */;
+			buildPhases = (
+				6153C2F81E226042007268E9 /* Sources */,
+				6153C2F91E226042007268E9 /* Frameworks */,
+				6153C2FA1E226042007268E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6153C2FE1E226042007268E9 /* PBXTargetDependency */,
+			);
+			name = Huo360Tests;
+			productName = Huo360Tests;
+			productReference = 6153C2FC1E226042007268E9 /* Huo360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6153C3061E226042007268E9 /* Huo360UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6153C3161E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360UITests" */;
+			buildPhases = (
+				6153C3031E226042007268E9 /* Sources */,
+				6153C3041E226042007268E9 /* Frameworks */,
+				6153C3051E226042007268E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6153C3091E226042007268E9 /* PBXTargetDependency */,
+			);
+			name = Huo360UITests;
+			productName = Huo360UITests;
+			productReference = 6153C3071E226042007268E9 /* Huo360UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6153C2DE1E226041007268E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cloud;
+				TargetAttributes = {
+					6153C2E51E226041007268E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4TUP24K85A;
+					};
+					6153C2FB1E226042007268E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4TUP24K85A;
+						TestTargetID = 6153C2E51E226041007268E9;
+					};
+					6153C3061E226042007268E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4TUP24K85A;
+						TestTargetID = 6153C2E51E226041007268E9;
+					};
+				};
+			};
+			buildConfigurationList = 6153C2E11E226041007268E9 /* Build configuration list for PBXProject "Huo360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6153C2DD1E226041007268E9;
+			productRefGroup = 6153C2E71E226041007268E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6153C2E51E226041007268E9 /* Huo360 */,
+				6153C2FB1E226042007268E9 /* Huo360Tests */,
+				6153C3061E226042007268E9 /* Huo360UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6153C2E41E226041007268E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6153C2F61E226042007268E9 /* LaunchScreen.storyboard in Resources */,
+				6153C2F31E226042007268E9 /* Assets.xcassets in Resources */,
+				6153C2F11E226042007268E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153C2FA1E226042007268E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153C3051E226042007268E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6153C2E21E226041007268E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6153C2EE1E226041007268E9 /* SecondViewController.swift in Sources */,
+				6153C2EA1E226041007268E9 /* AppDelegate.swift in Sources */,
+				6153C2EC1E226041007268E9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153C2F81E226042007268E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6153C3011E226042007268E9 /* Huo360Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153C3031E226042007268E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6153C30C1E226042007268E9 /* Huo360UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6153C2FE1E226042007268E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6153C2E51E226041007268E9 /* Huo360 */;
+			targetProxy = 6153C2FD1E226042007268E9 /* PBXContainerItemProxy */;
+		};
+		6153C3091E226042007268E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6153C2E51E226041007268E9 /* Huo360 */;
+			targetProxy = 6153C3081E226042007268E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6153C2EF1E226042007268E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6153C2F01E226042007268E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6153C2F41E226042007268E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6153C2F51E226042007268E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6153C30E1E226042007268E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6153C30F1E226042007268E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6153C3111E226042007268E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Huo360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6153C3121E226042007268E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Huo360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6153C3141E226042007268E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Huo360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huo360.app/Huo360";
+			};
+			name = Debug;
+		};
+		6153C3151E226042007268E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Huo360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huo360.app/Huo360";
+			};
+			name = Release;
+		};
+		6153C3171E226042007268E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Huo360UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Huo360;
+			};
+			name = Debug;
+		};
+		6153C3181E226042007268E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Huo360UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Huo360;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6153C2E11E226041007268E9 /* Build configuration list for PBXProject "Huo360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6153C30E1E226042007268E9 /* Debug */,
+				6153C30F1E226042007268E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6153C3101E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6153C3111E226042007268E9 /* Debug */,
+				6153C3121E226042007268E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6153C3131E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6153C3141E226042007268E9 /* Debug */,
+				6153C3151E226042007268E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6153C3161E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6153C3171E226042007268E9 /* Debug */,
+				6153C3181E226042007268E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6153C2DE1E226041007268E9 /* Project object */;
+}
