@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA7826FB0B5038EBD823AB2 /* Pods_Huo360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17152D3604CC0D0D74F5BEC9 /* Pods_Huo360.framework */; };
+		3E2EE0FB5ADE2B8B387053F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EEE2FEFEC8DD2EE45AC30 /* SecondViewController.swift */; };
+		3E2EEED038007EB297F87CF4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EE439786E6A26326E4093 /* NewsViewController.swift */; };
+		610A142A1E27AF9F00D158FD /* Crawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EE9A61F23DAA63803749C /* Crawler.swift */; };
+		610A142B1E27AFB700D158FD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61373AF21E26219900B4264C /* Data.swift */; };
+		610A142C1E27AFBA00D158FD /* CloseHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61373AF81E26D21D00B4264C /* CloseHTML.swift */; };
+		613109421E295FE1009296F0 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613109411E295FE1009296F0 /* UILabelExtension.swift */; };
+		61373AF51E267B8B00B4264C /* HuoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61373AF41E267B8B00B4264C /* HuoObject.swift */; };
+		61373AF71E268DBD00B4264C /* Parse2HuoObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61373AF61E268DBD00B4264C /* Parse2HuoObj.swift */; };
+		6152AEA01E28D8CA00DA094E /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152AE9F1E28D8CA00DA094E /* NewsViewCell.swift */; };
+		6152AEA21E29154600DA094E /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152AEA11E29154600DA094E /* UIImageViewExtension.swift */; };
+		6152AEA41E292ABE00DA094E /* NewsArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6152AEA31E292ABE00DA094E /* NewsArticleViewController.swift */; };
 		6153C2EA1E226041007268E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C2E91E226041007268E9 /* AppDelegate.swift */; };
-		6153C2EC1E226041007268E9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C2EB1E226041007268E9 /* FirstViewController.swift */; };
-		6153C2EE1E226041007268E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C2ED1E226041007268E9 /* SecondViewController.swift */; };
 		6153C2F11E226042007268E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6153C2EF1E226042007268E9 /* Main.storyboard */; };
 		6153C2F31E226042007268E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6153C2F21E226042007268E9 /* Assets.xcassets */; };
 		6153C2F61E226042007268E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6153C2F41E226042007268E9 /* LaunchScreen.storyboard */; };
 		6153C3011E226042007268E9 /* Huo360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C3001E226042007268E9 /* Huo360Tests.swift */; };
 		6153C30C1E226042007268E9 /* Huo360UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C30B1E226042007268E9 /* Huo360UITests.swift */; };
+		6153C31C1E23D59B007268E9 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C31B1E23D59B007268E9 /* HTTP.swift */; };
+		6153C31E1E23D5AD007268E9 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153C31D1E23D5AD007268E9 /* HTMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17152D3604CC0D0D74F5BEC9 /* Pods_Huo360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Huo360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2EE439786E6A26326E4093 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3E2EE9A61F23DAA63803749C /* Crawler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crawler.swift; sourceTree = "<group>"; };
+		3E2EEE2FEFEC8DD2EE45AC30 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		40D9F7ABB7EA3317F71E12AA /* Pods-Huo360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huo360.release.xcconfig"; path = "Pods/Target Support Files/Pods-Huo360/Pods-Huo360.release.xcconfig"; sourceTree = "<group>"; };
+		613109411E295FE1009296F0 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		61373AF21E26219900B4264C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		61373AF41E267B8B00B4264C /* HuoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuoObject.swift; sourceTree = "<group>"; };
+		61373AF61E268DBD00B4264C /* Parse2HuoObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parse2HuoObj.swift; sourceTree = "<group>"; };
+		61373AF81E26D21D00B4264C /* CloseHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseHTML.swift; sourceTree = "<group>"; };
+		6152AE9F1E28D8CA00DA094E /* NewsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		6152AEA11E29154600DA094E /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = ../Models/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		6152AEA31E292ABE00DA094E /* NewsArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsArticleViewController.swift; sourceTree = "<group>"; };
 		6153C2E61E226041007268E9 /* Huo360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huo360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153C2E91E226041007268E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6153C2EB1E226041007268E9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		6153C2ED1E226041007268E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6153C2F01E226042007268E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6153C2F21E226042007268E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6153C2F51E226042007268E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,9 @@
 		6153C3071E226042007268E9 /* Huo360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Huo360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153C30B1E226042007268E9 /* Huo360UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huo360UITests.swift; sourceTree = "<group>"; };
 		6153C30D1E226042007268E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6153C31B1E23D59B007268E9 /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		6153C31D1E23D5AD007268E9 /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLParser.swift; sourceTree = "<group>"; };
+		C5AD36C20B8D75ADD769F58F /* Pods-Huo360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huo360.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Huo360/Pods-Huo360.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA7826FB0B5038EBD823AB2 /* Pods_Huo360.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +103,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2EE0785750A45875B8130F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E2EE9A61F23DAA63803749C /* Crawler.swift */,
+				6153C31B1E23D59B007268E9 /* HTTP.swift */,
+				6153C31D1E23D5AD007268E9 /* HTMLParser.swift */,
+				61373AF21E26219900B4264C /* Data.swift */,
+				61373AF41E267B8B00B4264C /* HuoObject.swift */,
+				61373AF61E268DBD00B4264C /* Parse2HuoObj.swift */,
+				61373AF81E26D21D00B4264C /* CloseHTML.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E2EE57026313AED11DAFEAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E2EE439786E6A26326E4093 /* NewsViewController.swift */,
+				3E2EEE2FEFEC8DD2EE45AC30 /* SecondViewController.swift */,
+				6152AEA31E292ABE00DA094E /* NewsArticleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E2EEE87B7135CE43E8C2CEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6152AEA11E29154600DA094E /* UIImageViewExtension.swift */,
+				6152AE9F1E28D8CA00DA094E /* NewsViewCell.swift */,
+				613109411E295FE1009296F0 /* UILabelExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6153C2DD1E226041007268E9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +144,8 @@
 				6153C2FF1E226042007268E9 /* Huo360Tests */,
 				6153C30A1E226042007268E9 /* Huo360UITests */,
 				6153C2E71E226041007268E9 /* Products */,
+				94BA0ACDE7B07E3849D3993B /* Pods */,
+				9406F89E5A0FFA30C63B4D76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +163,13 @@
 			isa = PBXGroup;
 			children = (
 				6153C2E91E226041007268E9 /* AppDelegate.swift */,
-				6153C2EB1E226041007268E9 /* FirstViewController.swift */,
-				6153C2ED1E226041007268E9 /* SecondViewController.swift */,
 				6153C2EF1E226042007268E9 /* Main.storyboard */,
 				6153C2F21E226042007268E9 /* Assets.xcassets */,
 				6153C2F41E226042007268E9 /* LaunchScreen.storyboard */,
 				6153C2F71E226042007268E9 /* Info.plist */,
+				3E2EE57026313AED11DAFEAF /* Controllers */,
+				3E2EE0785750A45875B8130F /* Models */,
+				3E2EEE87B7135CE43E8C2CEE /* Views */,
 			);
 			path = Huo360;
 			sourceTree = "<group>";
@@ -128,6 +192,23 @@
 			path = Huo360UITests;
 			sourceTree = "<group>";
 		};
+		9406F89E5A0FFA30C63B4D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17152D3604CC0D0D74F5BEC9 /* Pods_Huo360.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94BA0ACDE7B07E3849D3993B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD36C20B8D75ADD769F58F /* Pods-Huo360.debug.xcconfig */,
+				40D9F7ABB7EA3317F71E12AA /* Pods-Huo360.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6153C3101E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360" */;
 			buildPhases = (
+				7CCE426640CBC59BCE649844 /* [CP] Check Pods Manifest.lock */,
 				6153C2E21E226041007268E9 /* Sources */,
 				6153C2E31E226041007268E9 /* Frameworks */,
 				6153C2E41E226041007268E9 /* Resources */,
+				884096830BFFEB7E30A919F2 /* [CP] Embed Pods Frameworks */,
+				2B35673647E28F8725F00525 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,21 +275,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Cloud;
 				TargetAttributes = {
 					6153C2E51E226041007268E9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4TUP24K85A;
+						LastSwiftMigration = 0820;
 					};
 					6153C2FB1E226042007268E9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4TUP24K85A;
+						LastSwiftMigration = 0820;
 						TestTargetID = 6153C2E51E226041007268E9;
 					};
 					6153C3061E226042007268E9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4TUP24K85A;
+						LastSwiftMigration = 0820;
 						TestTargetID = 6153C2E51E226041007268E9;
 					};
 				};
@@ -257,14 +344,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B35673647E28F8725F00525 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Huo360/Pods-Huo360-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CCE426640CBC59BCE649844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		884096830BFFEB7E30A919F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Huo360/Pods-Huo360-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6153C2E21E226041007268E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6153C2EE1E226041007268E9 /* SecondViewController.swift in Sources */,
+				610A142A1E27AF9F00D158FD /* Crawler.swift in Sources */,
+				610A142C1E27AFBA00D158FD /* CloseHTML.swift in Sources */,
+				61373AF51E267B8B00B4264C /* HuoObject.swift in Sources */,
+				6152AEA01E28D8CA00DA094E /* NewsViewCell.swift in Sources */,
+				613109421E295FE1009296F0 /* UILabelExtension.swift in Sources */,
+				6153C31C1E23D59B007268E9 /* HTTP.swift in Sources */,
+				61373AF71E268DBD00B4264C /* Parse2HuoObj.swift in Sources */,
+				6152AEA41E292ABE00DA094E /* NewsArticleViewController.swift in Sources */,
 				6153C2EA1E226041007268E9 /* AppDelegate.swift in Sources */,
-				6153C2EC1E226041007268E9 /* FirstViewController.swift in Sources */,
+				6152AEA21E29154600DA094E /* UIImageViewExtension.swift in Sources */,
+				6153C31E1E23D5AD007268E9 /* HTMLParser.swift in Sources */,
+				3E2EEED038007EB297F87CF4 /* NewsViewController.swift in Sources */,
+				610A142B1E27AFB700D158FD /* Data.swift in Sources */,
+				3E2EE0FB5ADE2B8B387053F6 /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +479,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -379,8 +527,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -399,6 +549,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -406,23 +557,29 @@
 		};
 		6153C3111E226042007268E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AD36C20B8D75ADD769F58F /* Pods-Huo360.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Huo360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6153C3121E226042007268E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D9F7ABB7EA3317F71E12AA /* Pods-Huo360.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Huo360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huo360.app/Huo360";
 			};
 			name = Debug;
@@ -446,6 +604,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huo360.app/Huo360";
 			};
 			name = Release;
@@ -457,6 +616,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Huo360;
 			};
 			name = Debug;
@@ -468,6 +628,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloud.Huo360UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Huo360;
 			};
 			name = Release;
@@ -491,6 +652,7 @@
 				6153C3121E226042007268E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6153C3131E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +661,7 @@
 				6153C3151E226042007268E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6153C3161E226042007268E9 /* Build configuration list for PBXNativeTarget "Huo360UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +670,7 @@
 				6153C3181E226042007268E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

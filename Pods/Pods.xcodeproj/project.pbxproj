@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138BC580FC0F8F5BDB836ED460FF026B /* Fuzi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1727DA737414191279270BD24B95AF /* Fuzi-dummy.m */; };
+		1D7E1FF2D06C8CC8939E1F44FEB95FC1 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02DA8EE307AD10D3C55C4E059B8244F /* Element.swift */; };
+		777A68439CCDB071B292AAA3F61379FB /* Pods-Huo360-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E194AE6773EABD65120A0F03721FC559 /* Pods-Huo360-dummy.m */; };
+		7CBF2F4872E28B44B343F546B7EA81DE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CF3558E6AAAC1D4DAFD1B020D8032 /* Error.swift */; };
+		8141F910056625F7FB94562AECB25AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8BAB6E5B0215AA5CCFECDA98A6DFCEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		98AEB8BF73CBA51BE5C577D5F91FA7CE /* Pods-Huo360-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B906A9603F2844C78A4E3DA70F7896D5 /* Pods-Huo360-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B075F4D3291FFBE83DD2F6A10EA04F42 /* NodeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE1463502ED9A51946130CFCC7707B /* NodeSet.swift */; };
+		B3CED0BC841D587965F5C0CD71FD1310 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD970DD2D7206ED32A6C9FB67028B7 /* Document.swift */; };
+		CA66A58D374BE217245888B8B9F673FB /* Queryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F667B872C585D9F94BC8B2C612AA06C /* Queryable.swift */; };
+		DA0CB8D9E116575CBED169DE5539E6F3 /* Fuzi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5697ED49B793BC96545F175AA0AD299C /* Fuzi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1635D552D6A1A86AD2344017D27022 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297B2E7123E31BDB6B66A96464DB8DD /* Helpers.swift */; };
+		F4BC91C44751CABE21A3BB91A423910A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3803B0DECD8DDBE6F6F398F4324F3B2 /* Node.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6778AE4BB76B3EB56B15CC734011B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E765B8AB74C35B1FEF51FA254D5C734;
+			remoteInfo = Fuzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		192FF9B8B9CFEA5875E50DFD54A371B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F667B872C585D9F94BC8B2C612AA06C /* Queryable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queryable.swift; path = Sources/Queryable.swift; sourceTree = "<group>"; };
+		2C1727DA737414191279270BD24B95AF /* Fuzi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fuzi-dummy.m"; sourceTree = "<group>"; };
+		33FE1463502ED9A51946130CFCC7707B /* NodeSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeSet.swift; path = Sources/NodeSet.swift; sourceTree = "<group>"; };
+		447075A0FAB0DC2FE2380555201C42ED /* Pods-Huo360-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Huo360-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5697ED49B793BC96545F175AA0AD299C /* Fuzi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuzi-umbrella.h"; sourceTree = "<group>"; };
+		5C83D879F94F0FCA6F1FACBD5BD7E4F3 /* Pods-Huo360-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Huo360-frameworks.sh"; sourceTree = "<group>"; };
+		6152D724613184F46ED209BA12E4B034 /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fuzi.framework; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642646A7D997F20EC8C9528C54202CA4 /* Pods_Huo360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Huo360.framework; path = "Pods-Huo360.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4BCA5EDC0F688233BA887059E4D332 /* Fuzi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fuzi.xcconfig; sourceTree = "<group>"; };
+		8035816319A64D6D77FCDD85E35F97A2 /* Pods-Huo360-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Huo360-acknowledgements.plist"; sourceTree = "<group>"; };
+		81BDC3536F419E7B16C5EA1511B94526 /* Pods-Huo360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Huo360.debug.xcconfig"; sourceTree = "<group>"; };
+		84A625845B348BDA19755ED8A8A2B676 /* Fuzi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Fuzi.modulemap; sourceTree = "<group>"; };
+		85AD970DD2D7206ED32A6C9FB67028B7 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		91CF60EEEE56C6F4F99B95530735BA58 /* Pods-Huo360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Huo360.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEDFD1CA7BF2A9381946F6F20E4C4BC8 /* Pods-Huo360-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Huo360-resources.sh"; sourceTree = "<group>"; };
+		B297B2E7123E31BDB6B66A96464DB8DD /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		B906A9603F2844C78A4E3DA70F7896D5 /* Pods-Huo360-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Huo360-umbrella.h"; sourceTree = "<group>"; };
+		BC798959BB8C07133573EF0C8CC3E0F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E194AE6773EABD65120A0F03721FC559 /* Pods-Huo360-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Huo360-dummy.m"; sourceTree = "<group>"; };
+		E49CF3558E6AAAC1D4DAFD1B020D8032 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		F02DA8EE307AD10D3C55C4E059B8244F /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		F3803B0DECD8DDBE6F6F398F4324F3B2 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		F4B196B5D3B50D9213C18FA6E59CB7A6 /* Pods-Huo360.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Huo360.modulemap"; sourceTree = "<group>"; };
+		FA17415A29CECE3DCD690D0213BD36C0 /* Fuzi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuzi-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B6D2DA4985FE2DDF99BA7FE0CF8DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAB6E5B0215AA5CCFECDA98A6DFCEFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5290B8F7172D01022EE987E9756364B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8141F910056625F7FB94562AECB25AF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005424E763CFADD75528228653A7259F /* Pods-Huo360 */ = {
+			isa = PBXGroup;
+			children = (
+				BC798959BB8C07133573EF0C8CC3E0F6 /* Info.plist */,
+				F4B196B5D3B50D9213C18FA6E59CB7A6 /* Pods-Huo360.modulemap */,
+				447075A0FAB0DC2FE2380555201C42ED /* Pods-Huo360-acknowledgements.markdown */,
+				8035816319A64D6D77FCDD85E35F97A2 /* Pods-Huo360-acknowledgements.plist */,
+				E194AE6773EABD65120A0F03721FC559 /* Pods-Huo360-dummy.m */,
+				5C83D879F94F0FCA6F1FACBD5BD7E4F3 /* Pods-Huo360-frameworks.sh */,
+				AEDFD1CA7BF2A9381946F6F20E4C4BC8 /* Pods-Huo360-resources.sh */,
+				B906A9603F2844C78A4E3DA70F7896D5 /* Pods-Huo360-umbrella.h */,
+				81BDC3536F419E7B16C5EA1511B94526 /* Pods-Huo360.debug.xcconfig */,
+				91CF60EEEE56C6F4F99B95530735BA58 /* Pods-Huo360.release.xcconfig */,
+			);
+			name = "Pods-Huo360";
+			path = "Target Support Files/Pods-Huo360";
+			sourceTree = "<group>";
+		};
+		04DD4E2003D03381DDF7DEC9A199F35C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				005424E763CFADD75528228653A7259F /* Pods-Huo360 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		30378BB4903DB59DE57939DED4E9E9F8 /* Fuzi */ = {
+			isa = PBXGroup;
+			children = (
+				85AD970DD2D7206ED32A6C9FB67028B7 /* Document.swift */,
+				F02DA8EE307AD10D3C55C4E059B8244F /* Element.swift */,
+				E49CF3558E6AAAC1D4DAFD1B020D8032 /* Error.swift */,
+				B297B2E7123E31BDB6B66A96464DB8DD /* Helpers.swift */,
+				F3803B0DECD8DDBE6F6F398F4324F3B2 /* Node.swift */,
+				33FE1463502ED9A51946130CFCC7707B /* NodeSet.swift */,
+				1F667B872C585D9F94BC8B2C612AA06C /* Queryable.swift */,
+				CF1D7773972CB779C9BD6FD0588568C1 /* Support Files */,
+			);
+			name = Fuzi;
+			path = Fuzi;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DF91C9E0E73C9D5AC62237C9F75AF0F5 /* Pods */,
+				DFDC7F0A7673E262D3C7CC8F276DF07C /* Products */,
+				04DD4E2003D03381DDF7DEC9A199F35C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1D7773972CB779C9BD6FD0588568C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A625845B348BDA19755ED8A8A2B676 /* Fuzi.modulemap */,
+				7E4BCA5EDC0F688233BA887059E4D332 /* Fuzi.xcconfig */,
+				2C1727DA737414191279270BD24B95AF /* Fuzi-dummy.m */,
+				FA17415A29CECE3DCD690D0213BD36C0 /* Fuzi-prefix.pch */,
+				5697ED49B793BC96545F175AA0AD299C /* Fuzi-umbrella.h */,
+				192FF9B8B9CFEA5875E50DFD54A371B9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fuzi";
+			sourceTree = "<group>";
+		};
+		DF91C9E0E73C9D5AC62237C9F75AF0F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30378BB4903DB59DE57939DED4E9E9F8 /* Fuzi */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFDC7F0A7673E262D3C7CC8F276DF07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6152D724613184F46ED209BA12E4B034 /* Fuzi.framework */,
+				642646A7D997F20EC8C9528C54202CA4 /* Pods_Huo360.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ED8E38C064F19F63DA142B8125CB18D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0CB8D9E116575CBED169DE5539E6F3 /* Fuzi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7EFCD492F210F461D2840DFA3D701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98AEB8BF73CBA51BE5C577D5F91FA7CE /* Pods-Huo360-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A2FF762307113D8F2372D34FF4A4E0B /* Pods-Huo360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081406ADDD6DE152EF06B6C179F893A1 /* Build configuration list for PBXNativeTarget "Pods-Huo360" */;
+			buildPhases = (
+				5CDA6B74D3BAFCBAEDC0D7E7B265C47D /* Sources */,
+				23B6D2DA4985FE2DDF99BA7FE0CF8DA9 /* Frameworks */,
+				8BA7EFCD492F210F461D2840DFA3D701 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1ED12A3FD140DE65A39BF808D7F35B /* PBXTargetDependency */,
+			);
+			name = "Pods-Huo360";
+			productName = "Pods-Huo360";
+			productReference = 642646A7D997F20EC8C9528C54202CA4 /* Pods_Huo360.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E765B8AB74C35B1FEF51FA254D5C734 /* Fuzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA35E5538EA8BC6A54BE7BADB0BE387C /* Build configuration list for PBXNativeTarget "Fuzi" */;
+			buildPhases = (
+				65B484B3AE89337815F5EB55E02E0075 /* Sources */,
+				5290B8F7172D01022EE987E9756364B6 /* Frameworks */,
+				0ED8E38C064F19F63DA142B8125CB18D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuzi;
+			productName = Fuzi;
+			productReference = 6152D724613184F46ED209BA12E4B034 /* Fuzi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DFDC7F0A7673E262D3C7CC8F276DF07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E765B8AB74C35B1FEF51FA254D5C734 /* Fuzi */,
+				3A2FF762307113D8F2372D34FF4A4E0B /* Pods-Huo360 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDA6B74D3BAFCBAEDC0D7E7B265C47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777A68439CCDB071B292AAA3F61379FB /* Pods-Huo360-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B484B3AE89337815F5EB55E02E0075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CED0BC841D587965F5C0CD71FD1310 /* Document.swift in Sources */,
+				1D7E1FF2D06C8CC8939E1F44FEB95FC1 /* Element.swift in Sources */,
+				7CBF2F4872E28B44B343F546B7EA81DE /* Error.swift in Sources */,
+				138BC580FC0F8F5BDB836ED460FF026B /* Fuzi-dummy.m in Sources */,
+				EC1635D552D6A1A86AD2344017D27022 /* Helpers.swift in Sources */,
+				F4BC91C44751CABE21A3BB91A423910A /* Node.swift in Sources */,
+				B075F4D3291FFBE83DD2F6A10EA04F42 /* NodeSet.swift in Sources */,
+				CA66A58D374BE217245888B8B9F673FB /* Queryable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1ED12A3FD140DE65A39BF808D7F35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fuzi;
+			target = 3E765B8AB74C35B1FEF51FA254D5C734 /* Fuzi */;
+			targetProxy = 0B6778AE4BB76B3EB56B15CC734011B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27E2AF41A87D4B9A59B995135573F8BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4BCA5EDC0F688233BA887059E4D332 /* Fuzi.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fuzi/Fuzi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fuzi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fuzi/Fuzi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Fuzi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF1696386F3CB0419B9648E4181E338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CF60EEEE56C6F4F99B95530735BA58 /* Pods-Huo360.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Huo360/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Huo360/Pods-Huo360.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Huo360;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A466AD75076974B15DFF371409C03348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BDC3536F419E7B16C5EA1511B94526 /* Pods-Huo360.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Huo360/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Huo360/Pods-Huo360.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Huo360;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC9712FF47E42E3297CC2D876B15B902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4BCA5EDC0F688233BA887059E4D332 /* Fuzi.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fuzi/Fuzi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fuzi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fuzi/Fuzi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Fuzi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081406ADDD6DE152EF06B6C179F893A1 /* Build configuration list for PBXNativeTarget "Pods-Huo360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A466AD75076974B15DFF371409C03348 /* Debug */,
+				5DF1696386F3CB0419B9648E4181E338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA35E5538EA8BC6A54BE7BADB0BE387C /* Build configuration list for PBXNativeTarget "Fuzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E2AF41A87D4B9A59B995135573F8BF /* Debug */,
+				AC9712FF47E42E3297CC2D876B15B902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

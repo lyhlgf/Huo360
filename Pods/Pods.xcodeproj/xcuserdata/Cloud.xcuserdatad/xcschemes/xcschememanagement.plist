@@ -4,28 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Huo360.xcscheme</key>
+		<key>Fuzi.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Huo360.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6153C2E51E226041007268E9</key>
+		<key>3A2FF762307113D8F2372D34FF4A4E0B</key>
 		<dict>
 			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
-		<key>6153C2FB1E226042007268E9</key>
+		<key>3E765B8AB74C35B1FEF51FA254D5C734</key>
 		<dict>
 			<key>primary</key>
-			<true />
-		</dict>
-		<key>6153C3061E226042007268E9</key>
-		<dict>
-			<key>primary</key>
-			<true />
+			<true/>
 		</dict>
 	</dict>
 </dict>
